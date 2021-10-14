@@ -1,11 +1,8 @@
 
-function timer (time) {
-    console.log(time);
-}
-
-while(true){
+function timer () {
     let d = new Date();
     let time = d.toLocaleTimeString();
-    
-    setTimeout(timer, 1000, time);
-}
+    console.log(time);
+  }
+  setInterval(timer, 1000);
+  

@@ -1,0 +1,2 @@
+1. The bug is that the numbers being inserted are as strings, rather than numbers. Thus, + will concat them.
+2. I fixed this issue by using the Number function with the num1/2 parameter. Thus, converting the strings to numbers.
